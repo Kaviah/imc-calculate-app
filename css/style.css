@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  justify-content: center;
+}
+
+input,
+button {
+  width: 150px;
+  margin: 1rem;
+  font-size: medium;
+  padding: 0.8rem;
+}
+
+main {
+  background-color: rgb(5, 114, 114);
+  border: 1px solid black;
+  text-align: center;
+  padding: 2em;
+  min-width: 350px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#result {
+  display: none;
+}
